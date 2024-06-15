@@ -1,2 +1,21 @@
-#Node.js Libraries
+.DS_Store
 node_modules
+public
+Icon?
+
+# hexo 生成的文件
+.deploy_git
+db.json
+*.log
+
+# hexo 缓存文件
+.cache
+.tmp
+
+# hexo 主题文件
+themes/*/node_modules
+themes/*/public
+
+# hexo 插件文件
+plugins/*/node_modules
+plugins/*/public
